@@ -40,7 +40,7 @@ public class MissionDemolition : MonoBehaviour
         StartLevel();
     }
 
-    void StartLevel()
+    public void StartLevel()
     {
         if (castle != null)
         {
